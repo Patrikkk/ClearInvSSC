@@ -10,7 +10,7 @@ namespace ClearInvSSC
 {
 	[ApiVersion(2, 1)]
 
-	public class ClearInvSSC : TerrariaPlugin
+	public class Plugin : TerrariaPlugin
 	{
 		#region PluginInfo
 		public override string Name { get { return "ClearInvSSC"; } }
@@ -19,7 +19,7 @@ namespace ClearInvSSC
 		public override Version Version { get { return new Version("2.0"); } }
 		#endregion
 
-		public ClearInvSSC(Main game)
+		public Plugin(Main game)
 			: base(game)
 		{
 		}
